@@ -10,7 +10,7 @@ import com.example.androidtraining_databinding.databinding.RowBinding
 
 class CustomAdapter(
     val activity: Activity,
-    val list: List<Person>
+    val list: ArrayList<Contributor>
 ): BaseAdapter() {
     override fun getView(position: Int, convertView: View?, container: ViewGroup?): View {
         val binding: RowBinding
